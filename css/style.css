@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    /* color: white; */
+    margin: auto;
+    margin-top: 15px;
+    width: 1000px;
+    height: 80px;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    background-color: cadetblue;
+    line-height: 80px;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.plus-button {
+    color: white;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-right: 10px solid black;
+    background-color: rgb(19, 126, 153);
+    line-height: 80px;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.plus-button:hover {
+    background-color: rgb(21, 146, 177);
+}
+
+.mst-button {
+    color: white;
+    float: right;
+    width: 150px;
+    height: 80px;
+    border-left: 10px solid black;
+    background-color: rgb(19, 126, 153);
+    line-height: 80px;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.mst-button:hover {
+    background-color: rgb(21, 146, 177);
+}
+
+.grafo {
+    margin: auto;
+    width: 1000px;
+    height: 550px;
+    border: 10px solid black;
+    background-color: white;
+}
+
+.ball {
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: brown;
+    position: absolute;
+    top: 116px;
+    left: 255px;
+    cursor: pointer;
+}
+
+.ball:hover {
+    background-color: rgb(190, 48, 48);
+}
+
+.popUp {
+    width:80px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: cadetblue;
+    position: absolute;
+}
+
+.popUp2 {
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    width:30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    position: absolute;
+}
+
+.popUp-button {
+    position: absolute;
+    width:30px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.popUp-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.field {
+    position: absolute;
+    margin: 10px;
+    margin-top: 6px; 
+    border-radius:6px; 
+    padding: 3px;
+    width: 50px;
+}
